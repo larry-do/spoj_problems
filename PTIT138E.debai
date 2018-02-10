@@ -1,0 +1,55 @@
+PTIT138E - BÀI E - LÀM TRÒN SỐ
+Cho trước một số nguyên, người ta sẽ làm tròn số này theo quy tắc sau:
+
+Nếu số đó lớn hơn 10 thì sẽ được làm tròn đến số hàng chục gần nhất
+Sau đó nếu kết quả lớn hơn 100 thì làm tròn đến số hàng trăm gần nhất
+Sau đó nếu kết quả lớn hơn 1000 thì làm tròn đến số hàng nghìn gần nhất
+…cứ tiếp tục như vậy …
+Chú ý: giá trị 5 được làm tròn lên.
+
+Hãy viết chương trình làm tròn số theo quy tắc trên.
+
+Input
+Dòng đầu tiên chứa số n là số bộ test (không quá 100).
+n dòng tiếp theo, mỗi dòng ghi một số nguyên x với 0 <= x <= 99999999.
+Output
+Với mỗi bộ test, in ra màn hình trên một dòng kết quả của phép làm tròn.
+Example
+Input:
+9
+
+15
+
+14
+
+4
+
+5
+
+99
+
+12345678
+
+44444445
+
+1445
+
+446
+Output:
+20
+
+10
+
+4
+
+5
+
+100
+
+10000000
+
+50000000
+
+2000
+
+500

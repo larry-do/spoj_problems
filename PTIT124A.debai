@@ -1,0 +1,61 @@
+PTIT124A - Mã hóa bằng ma trận xoáy ốc
+Chip và dale đã phát minh ra một phương pháp mã hóa để che giấu các tin nhắn văn bản. Đầu tiên chúng sử dụng 2 số là số hàng (R) và số cột (C) của ma trận. Người gửi sẽ mã hóa theo quy tắc sau:
+
+-       Văn bản gồm các chữ cái in hoa [A-Z] và dấu cách
+
+-       Mỗi kí tự sẽ có một giá trị thập phân như sau:
+
+Dấu cách = 0, A=1, B=2, ..., Y=25, Z=26
+
+Người gửi lấy 5 kí tự nhị phân đại diện cho giá trị chữ cái tương ứng và điền vào ma trận theo hình xoáy ốc như hình dưới. Ma trận sẽ được điền thêm các số 0 nếu còn thiếu. Ví dụ: nếu văn bản mã hóa là “ACM” và R=4 và C=4, ma trận sẽ được điền như sau:
+
+0→0→0→0
+
+             ↓
+
+1→1→0  1
+
+↑       ↓   ↓
+
+0  0←1  0
+
+↑           ↓
+
+1←1←0←0
+
+A = 00001, C = 00011, M = 01101
+
+(1 chữ số 0 được thêm vào để lấp đầy ma trận)
+
+Các bit trong ma trận sau đó được nối với nhau theo hàng và gửi đến người nhận
+
+Ví dụ trên sẽ được mã hóa thành: 0000110100101100
+
+Input
+Dòng 1 chứa số nguyên N (1<=N<=1000) là số bộ test.
+
+Sau đó là N bộ test, mỗi bộ test gồm 1 dòng có dạng như sau: R (1<=R<=20),  dấu cách, C (1<=C<=20), dấu cách, và đoạn văn bản chứa các chữ cái in hoa [A-Z] và dấu cách. Độ dài của đoạn văn bản <= (R*C)/5.
+
+Output
+Với mỗi bộ test, in ra trên 1 dòng chứa: số thứ tự bộ test, dấu cách, và kết quả mã hóa.
+
+Example
+Input:
+4
+
+4 4 ACM
+
+5 2 HI
+
+2 6 HI
+
+5 5 HI HO
+
+Output:
+1 0000110100101100
+
+2 0110000010
+
+3 010000001001
+
+4 0100001000011010110000010

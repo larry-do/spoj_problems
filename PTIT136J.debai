@@ -1,0 +1,47 @@
+PTIT136J - Lá cờ
+Tồ đang phát triển 1 hệ thống nhận dạng cờ. Sau hàng loạt bộ lọc và thuật toán, dữ liệu còn dưới dạng ma trận 6*9 chứa các ô là chữ cái in hoa đại diện cho màu sắc. Hệ thống mới phát triển nên chỉ có thể nhận dạng được các dạng cờ đơn giản như sau:
+
+
+
+Nói cách khác, cờ đơn giản mà Tồ xét gồm 3 sọc bằng nhau theo chiều ngang hoặc dọc. Màu sắc trên sọc giữa phải khác trên 2 sọc còn lại.
+
+Cho ma trận, tìm số ô phải đổi màu tối thiểu để nó chuyển thành dạng cờ đơn giản như trên.
+
+Input
+6 dòng, mỗi dòng có 9 chữ cái in hoa đại diện cho ma trận
+
+Output
+Kết quả bài toán
+
+Example
+Input:
+CCCCCCCCCPPPPPPPPP
+PPPPPPPPPCCCCCCCCC
+CCCCCCCCC
+CBBBBBBBC
+PBBBBBBBP
+PPPPPPPPP
+PPPPPPPPP
+
+Output:
+4
+Input:
+AZZAAAMMA
+AZZAAAMMA
+ZZZAMAMMM
+ZZZAAAMMM
+AZZAAAMMA
+AZZAAAMMA
+
+Output:
+9
+Input:
+TAAAOAAAT
+AAAOAOAAA
+OOOAAAOOO
+OOOAAAOOO
+AAAOAOAAA
+TAAAOAAAT
+
+Output:
+16

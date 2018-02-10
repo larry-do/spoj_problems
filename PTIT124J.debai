@@ -1,0 +1,20 @@
+PTIT124J - Chuyển đổi hệ cơ số (bản dễ)
+Cho một số ở hệ nhị phân, chuyển số đó sang hệ bát phân
+
+Input
+Một số duy nhất ở hệ nhị phân (không quá 100 chữ số, chữ số đầu tiên luôn là 1)
+
+Output
+Số sau khi chuyển sang hệ bát phân.
+
+Example
+Input:
+1010
+
+Output:
+12
+Input:
+11001100
+
+Output:
+314

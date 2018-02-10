@@ -1,0 +1,24 @@
+ALGOPRO6 - Giá trị của năm
+Bạn được yêu cầu viết 1 chương trình tính toán với công việc như sau:
+Cho một năm thuộc đoạn 1900 – 2100, hãy tính giá trị của năm đó.
+
+Ta có giá trị của 1 ngày được tính bởi công thức:
+
+Val = tổng các chữ số của ngày + tổng các chữ số của tháng + tổng các chữ số của năm.
+
+Giá trị của năm bằng tổng giá trị của tất cả các ngày trong năm đó.
+
+Ví dụ giá trị của ngày 4/4/2016 là 4 + 4 + 2 + 0 + 1 + 6 =  17.
+
+Input
+Dòng duy nhất chứa số năm.
+
+Output
+In ra duy nhất 1 số là đáp án của bài toán.
+
+Example
+Input:
+2016
+
+Output:
+6891

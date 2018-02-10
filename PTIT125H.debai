@@ -1,0 +1,33 @@
+PTIT125H - Chỗ ngồi
+Hàng ghế của rạp chiếu phim có N chỗ ngồi. Giữa 2 ghế có một chỗ để nước, trừ các cặp ghế "tình yêu" là không có gì ở giữa (chỉ có chỗ để nước ở 2 phía ngoài ghế), hơn nữa phía ngoài 2 ghế ngoài cùng cũng có chỗ để nước. Giả sử tất cả N người đều muốn để nước cạnh chỗ ngồi của họ, bạn hãy tính xem có thể có tối đa bao nhiêu người có chỗ để nước.
+
+Kí hiệu ghế bình thuờng là 'S', ghế "tình yêu" là'L' (2 ghế tình yêu luôn ở cạnh nhau). Kí hiệu '*' là chỗ để nước.
+
+Nếu dãy ghế là ‘SLLLLSSLL' thì có thể mô tả chỗ để nước như sau: * S * L  L * L  L * S * S * L  L *
+
+Có tối đa 7 người có thể có chỗ để nước.
+
+Input
+- Dòng 1: chứa số N (1<N<=50) - là số ghế
+
+- Dòng 2: chứa chuỗi N kí tự mô tả dãy ghế, 'L' là ghế "tình yêu", 'S' là  ghế bình thuờng.
+
+Output
+Số người tối đa có chỗ để nước.
+
+Example
+Input:
+3
+SSS
+Output:
+3
+Input:
+4
+SLLS
+Output:
+4
+Input:
+9
+SLLLLSSLL
+Output:
+7

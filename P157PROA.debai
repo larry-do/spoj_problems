@@ -1,0 +1,53 @@
+P157PROA - ROUND 7A - Số may mắn
+Để chọn ra con số may mắn của riêng CLB IT - PTIT, chủ nhiệm CLB yêu cầu mỗi thành viên lựa chọn một số nguyên dương bất kỳ trong khoảng từ 1 đến 1000. Sau đó con số nào được chọn bởi nhiều người nhất thì sẽ là số may mắn. Nếu có nhiều con số được chọn nhiều lần như nhau thì sẽ ưu tiên chọn con số nhỏ hơn.
+
+Giả sử số thành viên của CLB cũng không thể quá 1000 người. Hãy giúp CLB chọn ra số may mắn.  
+
+Input
+Dòng đầu tiên ghi số bộ test (không quá 100). Dòng đầu của mỗi bộ test ghi số N, là tổng số thành viên của CLB.
+
+Tiếp theo là N dòng, mỗi dòng ghi một giá trị được chọn.  
+
+Output
+Với mỗi bộ test, ghi ra trên một dòng số may mắn tìm được. 
+
+Example
+Input:
+3
+
+3
+
+42
+
+42
+
+19
+
+4
+
+7
+
+99
+
+99
+
+7
+
+5
+
+11
+
+12
+
+13
+
+14
+
+15
+
+Output:
+42
+
+7
+
+11

@@ -1,0 +1,48 @@
+PTIT136A - Cảnh báo
+Có một số đứa trẻ đang ăn trưa ở bàn ăn. Chúng luân phiên nhau lấy thức ăn từ bàn. Một số đứa trẻ ko được dạy dỗ nên nhảy vào lấy mà ko cho người khác cơ hội. Nếu ở 1 thời điểm 1 đứa trẻ lấy 1 miếng thức ăn mà trong khi nó có nhiều thức ăn hơn tất cả những đứa trẻ khác cộng lại, nó sẽ bị cô giáo cảnh báo về cách cư xử.
+
+Cho thứ tự lấy thức ăn của bọn trẻ, tính số lần cô giáo phải cảnh báo.
+
+Input
+Dòng đầu chứa N (1<=N<=100) số lượt lấy thức ăn
+
+N dòng sau, mỗi dòng chứa tên 1 đứa trẻ (không quá 20 kí tự tiếng ANh in thường)
+
+Output
+Số lần cảnh báo
+
+Example
+Input:
+4 mirko stankostanko4 
+mirko 
+stanko 
+stanko
+stanko
+
+Output:
+1
+ 
+
+Input:
+17
+a
+b
+b
+a
+a
+a
+c
+a
+b
+b
+c
+b
+b
+b
+b
+b
+b
+ 
+
+Output:
+4

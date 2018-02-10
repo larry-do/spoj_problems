@@ -1,0 +1,65 @@
+PTIT136B - Quân bài
+Tèo đang muốn thiết kế mặt sau của quân bài, cậu làm như sau:
+
+Đầu tiên, cậu vẽ 1/4 quân bài từ góc trên trái, phản chiếu nó theo chiều ngang, và rồi theo chiều dọc phản chiếu toàn bộ nửa trên xuống nửa dưới.
+
+Sau khi chiếu xong,  Tèo thêm một lỗi nhỏ vào quân bài (bằng cách thay đổi kí tự xuất hiện tại 1 điểm) để giúp cậu có thể đoán đk quân bài và gian lận.
+
+Bạn hãy giúp Tèo!
+
+Input
+Dòng đầu chứa R và C (1<=R,C<=50) là số dòng và số cột của 1/4 quân bài từ góc trên trái
+
+R dòng sau, mỗi dòng chứa C kí tự (là dấu "#" hoặc ".") là hình ảnh của 1/4 quân bài từ góc trên trái.
+
+Dòng tiếp theo chứa A và B (1 ≤ A≤ 2R, 1 ≤ B ≤ 2C) là vị trí dòng và cột của điểm bị lỗi
+
+Output
+In ra 2R dòng, mỗi dòng có 2C cột là hình ảnh mà Tèo cần dựng.
+
+Example
+Input:
+2 2 #. .#3 32 2 
+#. 
+.# 
+3 3
+
+Output:
+#..# 
+.##. 
+.#.. 
+#..#
+Input:
+3 3 
+###
+###
+###
+1 4
+
+Output:
+###.##
+######
+######
+######
+######
+###### 
+Input:
+5 4
+#.#.
+#.##
+#.##
+....
+.#.#
+10 5 
+
+Output:
+#.#..#.#
+#.####.#
+#.####.#
+........
+.#.##.#.
+.#.##.#.
+........
+#.####.#
+#.####.#
+#.#.##.# 

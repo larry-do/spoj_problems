@@ -1,0 +1,29 @@
+BCFIBO - Số fibonacci
+Số Fibonacci được xác định bởi công thức sau:
+
+F0=0
+
+F1=1
+
+Fn=Fn-1+Fn-2 với n≥2.
+
+Một số phần tử đầu tiên của dãy Fibonacci: 0,1,1,2,3,5,8,....
+
+Tìm số Fibonacci thứ n.
+
+Input
+Một số nguyên dương duy nhất n (n≤1 000 000).
+
+Output
+Một số nguyên duy nhất là số Fibonacci thứ n (kết quả lấy phần dư cho 1 000 000 007).
+
+Example
+Input:
+6
+
+Output:
+8
+Input:
+20
+Output:
+6765

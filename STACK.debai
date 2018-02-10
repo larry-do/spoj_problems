@@ -1,0 +1,26 @@
+STACK
+Bài này sẽ luyện cho bạn các thao tác cài đặt cấu trúc dữ liệu ngăn xếp (stack). Nếu đã cài đặt thành công, hãy tìm hiểu cách sử dụng container stack trong STL và cài đặt nó.
+
+Thao tác:
+
+-          1. ‘init’ : Khởi tạo stack rỗng.
+
+-          2. ‘push x’: Thêm phần tử x vào stack. (x là số nguyên dương không quá 10 mũ 9)
+
+-          3. ‘pop’: Nếu stack không rỗng lấy ra phần tử ở đỉnh stack.
+
+-          4. ‘top’: Trả về phần tử ở đỉnh stack. Nếu stack rỗng, trả về -1.
+
+-          5. ‘size:’ Trả về kích thước stack (số phần tử hiện tại của stack).
+
+-          6. ‘empty’: Kiểm tra stack rỗng hay không, nếu rỗng trả về 1, ngược lại là 0.
+
+-          7. ‘end’: Kết thúc chương trình.
+
+Dữ liệu:
+
+Gồm nhiều dòng mô tả các thao tác như trên (số phần tử của stack luôn không quá 1000).
+
+Kết quả:
+
+Khi gặp các thao tác 4,5,6 các bạn in ra trên 1 dòng tương ứng với câu trả lời.

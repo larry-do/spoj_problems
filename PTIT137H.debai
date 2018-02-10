@@ -1,0 +1,43 @@
+PTIT137H - BÀI H - CƠ SỐ 62
+Cơ số 62 là cơ số lớn nhất, được được định nghĩa dựa trên dãy ký tự:
+
+0, 1, . . . , 9, A, B, . . . , Z, a, b, . . . , z
+
+Với:
+
+A (cơ số 62) = 10 (cơ số 10)
+
+B (cơ số 62) = 11 (cơ số 10)
+
+...
+
+z (cơ số 62) = 61 (cơ số 10).
+
+Bài toán đặt ra là: cho một số biểu diễn trong cơ số 62. Hãy xác định xem số đó chia hết cho 61 hay không.  
+
+Input
+Có một vài bộ test. Mỗi bộ test ghi trên một dòng xâu ký tự biểu diễn số cần xác định (không quá 10000 ký tự).
+Đầu vào kết thúc với xâu: “end”.    
+Output
+Với mỗi bộ test, in ra màn hình trên một dòng xâu “yes” nếu số đã cho chia hết cho 61, “no” nếu ngược lại.  
+Example
+Input:
+1v3
+
+2P6
+
+IsThisDivisible
+
+end
+Output:
+yes
+
+no
+
+no
+ 
+Giải thích test ví dụ: 
+
+1v3 = 1 × 62^2 + 57 × 62 + 3 = 7381 chia hết cho 61
+
+2P6 = 2 × 62^2 + 25 × 62 + 6 = 9244 không chia hết cho 61

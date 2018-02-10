@@ -1,0 +1,9 @@
+BCPERMU - Liệt kê hoán vị (Cơ bản)
+Liệt kê hoán vị của n phần tử của một tập gồm các số từ 1->n.
+
+Input
+
+Dòng duy nhất chứa số n (1<=n<=8)
+
+Output
+Các hoán vị sắp xếp theo thứ tự từ điển tăng dần.

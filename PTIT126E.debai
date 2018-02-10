@@ -1,0 +1,36 @@
+PTIT126E - Bỏ phiếu
+Có một số người tham gia trong một cuộc bầu cử, lá phiếu của mỗi người được ghi lại với kí hiệu như sau:
+
+-       Y nghĩa là đồng ý.
+
+-       N nghĩa là không đồng ý.
+
+-       P nghĩa là có mặt, nhưng không bỏ phiếu.
+
+-       A nghĩa là vắng mặt.
+
+Nhiệm vụ của bạn là từ danh sách trạng thái này, xác định kết quả của cuộc bầu cử : Nếu ít nhất một nửa số người vắng mặt, in ra "need quorum". Ngược lại, cuộc bầu cử được tính. Nếu số người đồng ý lớn hơn số người không đồng ý, in ra "yes". Nếu số người không đồng ý lớn hơn số người đồng ý, in ra ‘’no’’. Nếu số người đồng ý bằng số người không đồng ý, in ra ‘tie’.
+
+Input
+-       Gồm nhiều bộ test, mỗi bộ test là 1 dòng chứa danh sách trạng thái của một số người tham gia cuộc bầu cử.  (2 <= Số người <= 70)
+
+-       Bộ test kết thúc bởi dòng chứa dấu ‘#’
+
+Output
+-       Mỗi bộ test in trên 1 dòng chứa kết quả của cuộc bầu cử.
+
+Example
+Input:
+ YNNAPYYNY
+ YAYAYAYA
+ PYPPNNYA
+ YNNAA
+ NYAAA
+ #
+
+Output:
+ yes
+ need quorum
+ tie
+ no
+ need quorum

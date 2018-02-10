@@ -1,0 +1,19 @@
+BCPTICH - Phân tích số nguyên
+ 
+
+Rất nhiều số nguyên dương có thể được biểu diễn thành tổng của một dãy các số nguyên liên tiếp. Ví dụ:    6 = 1 + 2 + 3   9 = 5 + 4 = 2 + 3 + 4 Tuy nhiên, số 8 thì lại không thể biểu diễn được như vậy. Bài toán đặt ra là với mỗi số nguyên cho trước, hãy đếm xem có thể có bao nhiêu cách biểu diễn số nguyên đó thành tổng của các số nguyên dương liên tiếp.  Input: Dòng đầu tiên ghi số bộ test, không lớn hơn 1000. Mỗi bộ test bao gồm thứ tự bộ test, tiếp theo là một số nguyên dương n nhỏ hơn 231
+ 
+
+Rất nhiều số nguyên dương có thể được biểu diễn thành tổng của một dãy các số nguyên liên tiếp. 
+
+Ví dụ:  
+
+ 6 = 1 + 2 + 3  
+
+ 9 = 5 + 4 = 2 + 3 + 4 
+
+Tuy nhiên, số 8 thì lại không thể biểu diễn được như vậy. Bài toán đặt ra là với mỗi số nguyên cho trước, hãy đếm xem có thể có bao nhiêu cách biểu diễn số nguyên đó thành tổng của các số nguyên dương liên tiếp.  
+
+Input: Dòng đầu tiên ghi số bộ test, không lớn hơn 1000. Mỗi bộ test bao gồm thứ tự bộ test, tiếp theo là một số nguyên dương n nhỏ hơn 231
+
+Output: Với mỗi bộ test, in ra màn hình thứ tự bộ test, tiếp theo là số cách biểu diễn tìm được

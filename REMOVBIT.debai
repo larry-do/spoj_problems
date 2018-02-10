@@ -1,0 +1,15 @@
+REMOVBIT - Xóa bit
+Cho số a viết ở hệ cơ số 2. Nhiệm vụ của bạn là phải xóa một chữ số để số còn lại xóa khi xóa là lớn nhất !!!
+
+Input
+Một dòng chứa số a viết ở hệ nhị phân.
+
+Output
+Số lớn nhất sau khi xóa 1 chữ số từ a.
+
+Example
+Input:
+101
+
+Output:
+11

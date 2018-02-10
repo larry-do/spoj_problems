@@ -1,0 +1,14 @@
+BCSAPXEP - Sắp xếp (Cơ bản)
+Sắp xếp dãy tăng dần.
+
+Input
+- Dòng đầu chứa số n ( số phần tử của dãy 1<=n<=1000)
+
+- n dòng sau, mỗi dòng là 1 phần tử của dãy (giá trị tuyệt đối không quá 1000)
+
+Output
+Mỗi phần tử của dãy in trên 1 dòng, theo thứ tự tăng dần.
+
+Lưu ý:
+
+Đây là bài sắp xếp cơ bản. Bạn nên sử dụng nhiều thuật toán sắp xếp khác nhau để submit: Sắp xếp chọn, nổi bọt, chèn, quicksort, heapsort, hàm sort trong STL algorithm,....

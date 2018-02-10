@@ -1,0 +1,21 @@
+PTIT138A - BÀI A - TAM GIÁC VUÔNG
+Chúng ta đều biết định lý Pitago nổi tiếng về tam giác vuông. Bài toán đặt ra là cho trước độ dài 3 cạnh của một tam giác. Hãy xác định xem đó có phải tam giác vuông hay không?
+
+Input
+Gồm nhiều bộ test. Mỗi bộ test viết trên một dòng 3 số nguyên dương không quá 30000, lần lượt là độ dài ba cạnh của tam giác. 
+Input kết thúc với 3 số 0
+Output
+Với mỗi bộ test, in ra màn hình, trên một dòng, chữ “right” nếu đó là một tam giác vuông, “wrong” nếu ngược lại.
+Example
+Input:
+6 8 10
+25 52 60
+5 12 13
+0 0 0
+
+Output:
+right
+
+wrong
+
+right

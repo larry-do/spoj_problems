@@ -1,0 +1,21 @@
+PTIT135J - Tính lãi suất
+An đem một số tiền ban đầu N gửi vào ngân hàng với lãi suất L (đơn vị %). Sau mỗi năm, tiền lãi sự cộng dồn vào N. Hỏi sau bao nhiêu năm thì An sẽ đạt được số tiền là M.
+
+Input
+Dòng đầu là số bộ test.
+
+Mỗi bộ test có dạng: 3 số cách nhau bởi dấu cách: N L M.
+
+Lưu ý: tất cả các số đều trong giới hạn số thực (kiểu double) và N < M.
+
+Output
+Với mỗi bộ test in ra kết quả yêu cầu trên một dòng
+
+Example
+Input:
+2
+200.00 6.5 300
+500 4 1000.00
+Output:
+7
+18

@@ -1,0 +1,79 @@
+PTIT123G - Chuyển đổi hệ cơ số
+Viết chương trình để chuyển đổi một số từ hệ cơ số này sang hệ cơ số khác. Có tất cả 62 chữ số khác nhau: {0-9,A-Z,a-z}
+
+Input
+- Dòng đầu tiên chứa số bộ test T.
+
+- Sau đó là T bộ test, mỗi bộ test trên 1 dòng có dạng như sau:
+
+Đầu tiên là hệ cơ số đầu vào, tiếp theo là hệ cơ số đầu ra, tiếp theo là số cần chuyển. Hệ cơ số trong đoạn từ 2..62. Giá trị của các chữ số trong hệ cơ số 10 như sau: A=10, B=11, ..., X=35, a=36, b=37, ..., z=61. (0-9 thì giữ nguyên giá trị). Mỗi số cách nhau bởi dấu cách. Số cần chuyển không quá 150 chữ số.
+
+Output
+Mỗi bộ test xuất ra trên ba dòng như sau:
+
+- Dòng đầu tiên chứa hệ cơ số đầu vào và số cần chuyển cách nhau bởi dấu cách.
+
+- Dòng thứ hai chứa hệ cơ số đầu ra và số đã chuyển, cũng cách nhau bởi dấu cách.
+
+- Dòng thứ ba là một dòng trống.
+
+Example
+Input:
+8
+
+62 2 abcdefghiz
+
+10 16 1234567890123456789012345678901234567890
+
+16 35 3A0C92075C0DBF3B8ACBC5F96CE3F0AD2
+
+35 23 333YMHOUE8JPLT7OX6K9FYCQ8A
+
+23 49 946B9AA02MI37E3D3MMJ4G7BL2F05
+
+49 61 1VbDkSIMJL3JjRgAdlUfcaWj
+
+61 5 dl9MDSWqwHjDnToKcsWE1S
+
+5 10 42104444441001414401221302402201233340311104212022133030
+
+Output:
+62 abcdefghiz
+
+2 1011100000100010111110010010110011111001001100011010010001
+
+
+10 1234567890123456789012345678901234567890
+
+16 3A0C92075C0DBF3B8ACBC5F96CE3F0AD2
+
+ 
+
+16 3A0C92075C0DBF3B8ACBC5F96CE3F0AD2
+
+35 333YMHOUE8JPLT7OX6K9FYCQ8A
+
+
+35 333YMHOUE8JPLT7OX6K9FYCQ8A
+
+23 946B9AA02MI37E3D3MMJ4G7BL2F05
+
+
+23 946B9AA02MI37E3D3MMJ4G7BL2F05
+
+49 1VbDkSIMJL3JjRgAdlUfcaWj
+
+
+49 1VbDkSIMJL3JjRgAdlUfcaWj
+
+61 dl9MDSWqwHjDnToKcsWE1S
+
+
+61 dl9MDSWqwHjDnToKcsWE1S
+
+5 42104444441001414401221302402201233340311104212022133030
+
+
+5 42104444441001414401221302402201233340311104212022133030
+
+10 1234567890123456789012345678901234567890

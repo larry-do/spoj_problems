@@ -1,0 +1,12 @@
+PTIT121E - Nguyên tố hóa học
+Hóa chất chỉ gồm các nguyên tố C, H, O có trọng lượng 12,1, 16 tương ứng.
+
+Nó được biểu diễn dạng "nén", ví dụ COOHHH là CO2H3 hay CH (CO2H) (CO2H) (CO2H) là CH(CO2H)3. Nếu ở dạng nén thì số lần lặp >=2 và <=9.
+
+Tính khối lượng hóa chất.
+
+Input
+Gồm một dòng mô tả hóa chất không quá 100 kí tự chỉ gồm C, H, O, (, ), 2,..,9.
+
+Output
+Khối lượng của hóa chất (luôn <=10000).

@@ -1,0 +1,33 @@
+PTIT135A - Đỗ xe
+Luka là ông chủ của 3 chiếc xe tải. Hàng đêm, anh thuê lái xe đến mua nấm ở xưởng nấm. Luka đưa trước tiền cho 3 lái xe của mình. Giá tiền đậu xe tại xưởng nấm như sau:
+
+Nếu có 1 xe đậu thì lái xe trả A đồng/phút.
+
+Nếu có 2 xe đậu thì mỗi lái xe trả B đồng/phút.
+
+Nếu có 3 xe đậu thì mỗi lái xe trả C đồng/phút.
+
+Cho biết thời gian đến và đi của mỗi xe. Hãy xác định xem Luka cần phải đưa bao nhiêu tiền cho các lái xe của mình.
+
+Input
+3 số a, b, c (1 <= c <= b <= a <= 100). 3 dòng tiếp theo là thời gian đến và đi của từng xe. Các giá trị thời gian đều <= 100 phút.
+
+Output
+Số tiền mà Luka cần đưa cho 3 lái xe.
+
+Example
+Input1:
+5 3 1
+1 6
+3 5
+2 8
+Ouput1:
+33
+ 
+Input2:
+10 8 6
+15 30
+25 50
+70 80
+Ouput2:
+480

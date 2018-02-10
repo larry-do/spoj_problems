@@ -1,0 +1,27 @@
+PTIT127A - Tổ chức kì thi
+Một cuộc thi gồm có M nữ và N nam đăng kí. Ban tổ chức cần xếp đội cho các thí sinh theo quy tắc như sau: Mỗi đội gồm 2 nữ và 1 nam. Tuy nhiên, ban tổ chức cần K người để tham gia vào công tác tổ chức (chọn từ số người đăng kí), K người này sẽ không thể chọn đội để thi. Ví dụ: Nếu M=6, N=3, K=2. Ban tổ chức có thể lấy 1 nam và 1 nữ để tham gia tổ chức, còn lại 5 nữ và 2 nam. Ban tổ chức có thể tạo ra 2 đội.
+
+Bạn hãy giúp ban tổ chức tính xem có thể chọn tối đa bao nhiêu đội.
+
+Input
+Một dòng chứa 3 số nguyên M,N,K. (0≤M,N≤100), (0≤K≤M+N)
+
+Output
+Số nguyên duy nhất là số đội có thể lập được.
+
+Example
+Input:
+6 3 2
+
+Output:
+2
+Input:
+2 1 1
+
+Output:
+0
+Input:
+6 10 3
+
+Output:
+3

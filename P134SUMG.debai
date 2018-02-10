@@ -1,0 +1,65 @@
+P134SUMG - SUM4 G - Gia vị
+Tại một nhà hàng truyền thống của Ấn Độ, đầu bếp đang phân vân trong việc chọn gia vị cho món ăn của mình. Nhà hàng này rất nổi tiếng bởi bí quyết gia vị của họ, đặc biệt là vị chua và vị cay. Các món ăn của họ có vị chua và cay xen lẫn nhau rất đặc biệt.
+
+Hiện tại đang có tất cả N loại gia vị. Mỗi loại có độ chua S_i và độ cay B_i đặc chưng. Khi trộn K loại gia vị vào món ăn, độ chua của món ăn sẽ bằng tích độ chua của K loại gia vị, trong khi đó độ cay sẽ bằng tổng độ cay của K loại gia vị.
+
+Để cho món ăn được hấp dẫn và hài hòa, đầu bếp sẽ chọn các loại gia vị sao cho sự chênh lệch giữa độ chua và độ cay của món ăn là nhỏ nhất.
+
+Dĩ nhiên, cần phải chọn ít nhất một loại gia vị cho món ăn. Các bạn hãy giúp đầu bếp thực hiện công việc này.
+
+Input
+Dòng đầu tiên là số thành phần gia vị N (1 ≤ N ≤ 10).
+
+N dòng tiếp theo, mỗi dòng gồm 2 số S_i, B_i mô tả đặc trưng vị chua và vị cay của gia vị đó.
+
+Input được đảm bảo rằng nếu trộn tất cả các loại gia vị, thì độ cay và độ chua của món ăn sẽ nhỏ hơn 10^9.
+
+Output
+In ra sự chênh lệch nhỏ nhất giữa vị chua và vị cay của món ăn.
+
+Example
+Test 1:
+
+Input:
+
+1
+
+3 10
+
+Output:
+
+7
+
+ 
+
+Test 2:
+
+Input:
+
+2
+3 8
+5 8
+
+Output:
+
+1
+
+ 
+
+Test 3:
+
+Input:
+
+4
+1 7
+2 6
+3 8
+4 9
+
+Output:
+
+1
+
+ 
+
+Giải thích test 3: Đầu bếp sẽ chọn 3 gia vị cuối. Độ chua của món ăn sẽ bằng 2*3*4 = 24, còn độ cay là 6+8+9 = 23. Hiệu của chúng bằng 1.

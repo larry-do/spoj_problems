@@ -1,0 +1,87 @@
+PTIT128H - Trò chơi Sudoku
+Trò chơi Sudoku bao gồm 1 lưới 9 x 9 được ghi bằng các số từ 1 đến 9 thỏa mãn quy tắc:
+
+Tất cả các hàng đều có đúng 9 số từ 1 đến 9
+Tất cả các cột đều có đúng 9 số từ 1 đến 9
+Tất cả 9 ô vuông nhỏ cỡ  3 x 3 đều có đúng 9 số từ 1 đến 9
+Để bắt đầu trò chơi, bạn được cho 1 lưới 9 x 9 được phủ gần hết các số 1 đến 9, và còn đúng 5 vị trí khuyết. Bạn được yêu cầu hoàn tất lưới hoặc xác định không thể hoàn thành được.
+
+
+
+Input
+Dòng đầu tiên ghi số nguyên dương t (1≤ t ≤ 100) là số bộ test. Mỗi bộ test gồm 9 dòng, mỗi dòng gồm 9 số có giá trị trong khoảng từ 0 đến 9 viết liền nhau. Sẽ có đúng 5 số 0 tương ứng với 5 vị trí bạn cần điền giá trị cho hợp lệ. 
+
+Output
+Với mỗi bộ test, output sẽ là 1 dòng
+
+Could not complete this grid.
+
+Nếu như không có giải pháp điền các số thỏa mãn nguyên tắc trò chơi.
+
+Hoặc:
+
+Nếu có giải pháp, giải pháp đó sẽ là duy nhất và bạn sẽ in ra màn hình bao gồm 9 dòng, trong đó các số 0 được thay bằng số thỏa mãn.
+
+Kết quả các bộ test được ghi cách nhau bởi 1 dòng trắng.
+
+Example
+Input:
+2
+
+481253697
+
+267948105
+
+539671204
+
+654389712
+
+908704563
+
+173562849
+
+702136958
+
+315897426
+
+896425371
+
+481253697
+
+267948105
+
+539671284
+
+654289710
+
+908704562
+
+173562849
+
+702136958
+
+315897426
+
+896425371
+Output:
+481253697
+
+267948135
+
+539671284
+
+654389712
+
+928714563
+
+173562849
+
+742136958
+
+315897426
+
+896425371
+
+ 
+
+Could not complete this grid.

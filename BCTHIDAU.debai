@@ -1,0 +1,14 @@
+BCTHIDAU - Thi đấu
+Trong cuộc thi ACM, các đội thi đấu với nhau. Thứ hạng của mỗi đội phụ thuộc vào: số lượng bài giải được và số điểm bị phạt (điểm phạt phụ thuộc vào thời gian và số lần nộp bài trước khi bài đó được giải đúng). Điểm phạt bằng thời gian nộp bài đúng cộng với 20 phút cho mỗi lần nộp sai. Nếu một bài không giải được thì những lần nộp sai bài đó không bị tính điểm phạt. Như vậy nếu đội giải đúng vào lần nộp thứ 2, sau 20 phút thì điểm phạt sẽ là 40 điểm. Đội thắng là đội giải được nhiều nhất, nếu có nhiều đội có số bài giải giống nhau thì đội bị phạt ít hơn sẽ giành chiến thắng.
+
+Input: Cuộc thi ACM lần này chỉ có 4 bài.
+
+Dòng 1: số n tương ứng với số đội thi
+
+Dòng 2 đến dòng n+1: Mỗi dòng ghi
+
+<Tên> <p1SuB> <p1Time> <p2SuB> <p2Time>….<p4Time>
+
+Thành phần đầu tiên là tên đội, không chứa dấu cách. Sau đó là thông tin về đội đó: p1Sub số lần đội nộp lời giải cho bài 1, p1Time là thời điểm đội nộp đúng, nếu đội không giải đúng được bài 1 thì p1Time=0, tương tự với 3 bài còn lại.
+
+Output: Ghi tên đội thắng, số bài giải được, số điểm phạt

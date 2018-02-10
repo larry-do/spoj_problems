@@ -1,0 +1,29 @@
+YOUNGCLA - Birthdates
+Viết chương trình tìm người trẻ nhất và già nhất trong lớp.
+
+Input
+Dòng 1 chứa số n (1<=n<=100), số người trong lớp.
+
+N dòng sau, mỗi dòng là thông tin 1 người có dạng:
+
+personName dd mm yyyy
+
+Trong đó: personName là tên không quá 15 chữ cái, dd,mm,yyyy lần lượt là ngày, tháng, và năm sinh.
+
+Output
+Dòng 1: tên người trẻ nhất
+
+Dòng 2: tên người già nhất
+
+Example
+Input:
+5 Garfield 20 9 19905
+Mickey 1 10 1991
+Alice 30 12 1990
+Tom 15 8 1993
+Jerry 18 9 1990
+Garfield 20 9 1990
+
+Output:
+Tom
+Jerry

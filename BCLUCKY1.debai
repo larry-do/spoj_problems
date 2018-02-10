@@ -1,0 +1,50 @@
+BCLUCKY1 - Số gần may mắn
+ Petya yêu thích các số may mắn. Ta biết rằng một số là số may mắn nếu biểu diễn thập phân của nó chỉ chứa các chữ số may mắn là 4 và 7. 
+
+Ví dụ, các số 47, 744, 4 là số may mắn và 5, 17, 467 không phải.
+
+Tuy nhiên, không phải tất cả các số là may mắn. Petya gọi 1 số là số gần may mắn nếu có số chữ số may mắn là số may mắn. 
+
+Hãy kiểm tra xem 1 số có là số gần may mắn không.
+
+Input
+
+Chỉ chứ số nguyên n (1 ≤ n ≤ 1018).
+
+Output
+
+In ra trên 1 dòng "YES" nếu n là số gần may mắn. Ngược lại, in ra "NO" (không có dấu nháy).
+
+Ví dụ:
+
+Input
+
+40047
+
+Output
+
+NO
+
+Input
+
+7747774
+
+Output
+
+YES
+
+Input
+
+1000000000000000000
+
+Output
+
+NO
+
+Giải thích:
+
+Trong test đầu, có 3 chữ số may mắn (1 ở đầu và 2 ở cuối), mà 3 không là số may mắn, nên đáp án là "NO".
+
+Trong test thứ 2, có 7 chữ số may mắn, mà 7 là số may mắn, nên đáp án là "YES".
+
+Trong test thứ 3, không có chữ số may mắn nào, nên đáp án là "NO".

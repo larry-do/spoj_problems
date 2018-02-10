@@ -1,0 +1,29 @@
+PTIT124G - Tráo bài
+8 2 3 5 6 4 7 1 9Cho một tập bài gồm n lá bài đánh số từ 1 tới n theo thứ tự từ trên xuống dưới. Đầu tiên người ta viết vào mỗi lá bài một số nguyên là số thứ tự lá bài đó. Xét phép tráo S(i,j): Rút ra lá bài ghi số nguyên i và chèn lên trên lá bài mang số nguyên j (i≠j).
+
+Ví dụ: Với n=9:
+
+
+
+Cho x phép tráo bài, hãy xác định trạng thái của tập bài sau x phép tráo.
+
+Input
+-  Dòng 1 chứa hai số nguyên dương n,x ≤ 105
+
+-  x dòng tiếp theo, dòng thứ k chứa hai số nguyên dương ik , jk cho biết phép tráo thứ k là S(ik , jk) (ik ≠ jk, 1 ≤ ik , jk ≤n) 
+
+Output
+Một dòng gồm n số nguyên là các số ghi trên lá bài theo thứ tự từ trên xuống dưới.
+
+Example
+Input:
+9 3
+
+8 2
+
+4 7
+
+1 9
+
+Output:
+8 2 3 5 6 4 7 1 9

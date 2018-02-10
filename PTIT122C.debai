@@ -1,0 +1,16 @@
+PTIT122C - Giai thừa 2
+Tìm số lần xuất hiện của chữ số x trong số n! (n giai thừa).
+
+Giới hạn:
+
+-          1<=n<=365
+
+-          x là các chữ số từ 0 đến 9
+
+Input
+-          Dòng đầu là số bộ test T (<=20)
+
+-          Sau đó là T dòng, mỗi dòng gồm 2 số nguyên cách nhau bởi dấu cách lần lượt là n và x.
+
+Output
+-          Mỗi bộ test in trên một dòng đáp án.

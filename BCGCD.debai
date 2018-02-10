@@ -1,0 +1,22 @@
+BCGCD - Ước chung lớn nhất, bội chung nhỏ nhất (Cơ bản)
+Tìm UCLN và BCNN của 2 số.
+
+Input
+
+Gồm nhiều test, mỗi test trên 1 dòng chứa 2 số nguyên dương không quá 231
+
+Bộ test kết thúc bởi dòng chứa 2 số 0.
+
+Output
+Mỗi test xuất ra trên 1 dòng chứa 2 số cách nhau bởi dấu cách lần lượt là UCLN và BCNN.
+
+Example
+
+Input:
+2 4
+6 9
+0 0
+
+Output:
+2 4
+3 18

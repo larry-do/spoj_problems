@@ -1,0 +1,10 @@
+BCOLP10 - Độ đo
+Hai xâu ký tự được gọi là đảo của nhau nếu ta có thể hoán vị các ký tự của một xâu để được xâu còn lại. Ví dụ: xâu “occurs” là đảo của xâu “succor”, tuy nhiên xâu “dear” không phải là đảo của xâu “dared” (vì chữ ‘d’ xuất hiện 2 lần trong “dared” nhưng chỉ xuất hiện “dear” trong 1 lần).
+
+Độ đo giữa hai xâu ký tự là số ký tự ít nhất cần phải xóa (trên cả hai xâu) để hai xâu còn lại đảo của nhau. Ví dụ độ đo giữa hai xâu “sleep” và “leap” là 3, độ đo giữa hai xâu “dog” và “cat” là 6.
+
+Yêu cầu: Hãy tính độ đo giữa hai xâu cho trước.
+
+Dữ liệu: gồm hai dòng, mỗi dòng chứa một xâu ký tự chỉ gồm các chữ cái tiếng Anh thường, mỗi dòng có không quá 1 triệu ký tự.
+
+Kết quả: một số nguyên duy nhất là độ đo giữa hai xâu trong file dữ liệu

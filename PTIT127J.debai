@@ -1,0 +1,39 @@
+PTIT127J - Biến đổi chuỗi
+Cho chuỗi gồm N chữ cái, các chữ cái là ‘A’ hoặc ‘B’. Có hai loại biến đổi:
+
+-       Đổi 1 chữ cái bất kì (A -> B hoặc B->A).
+
+-       Đổi K chữ cái đầu tiên của chuỗi (A->B và B->A).
+
+Hãy tìm số phép biến đổi ít nhất để biến chuỗi đã cho thành chuỗi chỉ gồm các chữ cái ‘A’.
+
+Input
+-       Dòng 1: số N (1 ≤ N ≤ 1 000 000)
+
+-       Dòng 2: chuỗi gồm N chữ cái, các chữ cái là ‘A’ hoặc ‘B’
+
+Output
+Số phép biến đổi tối thiểu.
+
+Example
+Input:
+4
+
+ABBA
+
+Output:
+2
+Input:
+5
+
+BBABB
+
+Output:
+2
+Input:
+12
+
+AAABBBAAABBB 
+
+Output:
+4

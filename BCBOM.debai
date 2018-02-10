@@ -1,0 +1,41 @@
+BCBOM - Trò chơi dò mìn
+ 
+
+Trong trò chơi dò mìn, người ta cho trước một ma trận cấp n*m trong đó có một số quả mìn ở các vị trí nào đó. Nhiệm vụ của người chơi là xác định vị trí của các quả mìn này dựa trên các ô xung quanh.  Trong bài này, bạn hãy viết chương trình chuyển từ ma trận n*m mô tả vị trí các quả mìn và các ô trống thành một ma trận khác trong đó với mỗi ô trống sẽ xác định xem có bao nhiêu quả mìn kề với nó.  Input (D.txt): Có nhiều bộ test, mỗi bộ test bắt đầu bằng 2 số nguyên n và m (1<=n,m<=100). Tiếp theo đó là ma trận cấp n*m trong đó vị trí có mìn đánh dấu bởi ký tự * còn không có là dấu chấm (.). Dòng cuối cùng của file Input chứa hai giá trị 0.  Output: Với mỗi bộ test, in ra  màn  hình  ma trận tương ứng trong đó các vị trí có dấu chấm được thay bằng một số nguyên cho biết số quả mìn kề với ô đó.
+ 
+
+Trong trò chơi dò mìn, người ta cho trước một ma trận cấp n*m trong đó có một số quả mìn ở các vị trí nào đó. Nhiệm vụ của người chơi là xác định vị trí của các quả mìn này dựa trên các ô xung quanh.  
+
+Trong bài này, bạn hãy viết chương trình chuyển từ ma trận n*m mô tả vị trí các quả mìn và các ô trống thành một ma trận khác trong đó với mỗi ô trống sẽ xác định xem có bao nhiêu quả mìn kề với nó.  
+
+Input: Có nhiều bộ test, mỗi bộ test bắt đầu bằng 2 số nguyên n và m (1<=n,m<=100). Tiếp theo đó là ma trận cấp n*m trong đó vị trí có mìn đánh dấu bởi ký tự * còn không có là dấu chấm (.). Dòng cuối cùng của file Input chứa hai giá trị 0.  
+
+Output: Với mỗi bộ test, in ra  màn  hình  ma trận tương ứng trong đó các vị trí có dấu chấm được thay bằng một số nguyên cho biết số quả mìn kề với ô đó.
+
+ 
+
+ 
+
+Example
+Input:
+3 2  
+..  
+.*  
+..  
+5 5  
+*.*.*  
+..*..  
+*****  
+.....  
+..**.  
+0 0
+
+Output:
+11  
+1*  
+11  
+*3*3*  
+36*63  
+*****  
+24553  
+01**1

@@ -1,0 +1,15 @@
+SUMSQR1 - Tổng bình phương
+Cho dãy a gồm có N phần tử là hoán vị các số từ 1 đến N. Tính tổng bình phương các số trong dãy A.
+
+Input
+Gồm một số N duy nhất (1<=N<=109)
+
+Output
+Tổng bình phương các số trong dãy a.
+
+Example
+Input:
+2
+
+Output:
+5

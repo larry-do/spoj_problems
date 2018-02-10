@@ -1,0 +1,32 @@
+P141PROC - ROUND 1C - BIT operator
+Buổi học thứ 2 về lập trình cơ sở, các bạn sinh viên năm nhất sẽ được giới thiệu một số toán tử về bit. Trong đó 2 toán tử cơ bản nhất là:
+
+Toán tử ++ sẽ tăng giá trị của biến X lên 1 đơn vị.
+
+Toán tử -- sẽ giảm giá trị của biến X đi 1 đơn vị.
+
+Cuối buổi, thầy giáo có một bài tập nhỏ như sau: cho biến X khởi tạo ban đầu bằng 0 và một chuỗi các toán tử bit như trên, các bạn hãy tính giá trị của biến X sau khi thực hiện hết chuỗi lệnh đó?
+
+Input
+Dòng đầu tiên là số nguyên n (n <= 150) là số lượng câu lệnh trong chương trình.
+
+n dòng tiếp theo, mỗi dòng là 1 câu lệnh với biến X. Có 4 dạng câu lệnh đó là:
+
+++X
+
+X++
+
+--X
+
+X--
+
+Output
+In ra giá trị của biến X sau khi thực hiện xong chương trình.
+
+Example
+Input:
+2
+X++
+--X
+2X++--Output:
+0

@@ -1,0 +1,23 @@
+PTIT121I - Lặp lại các kí tự
+Với một xâu ký tự S, và một số nguyên R, hãy tạo ra một xâu T bằng cách mỗi ký tự trong S được lặp lại R lần. Các ký tự trong S có thể nằm trong dãy:
+
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ$%*+-./:
+
+Input
+Dòng 1 ghi số bộ test (không quá 1000)
+Mỗi bộ test gồm số thứ tự, một dấu cách, tiếp theo là số 1<=R<=8, một dấu cách, rồi đến xâu ký tự S (không quá 20 ký tự). 
+Output
+Với mỗi bộ test ghi trên một dòng số thứ tự bộ test, một dấu cách rồi đến xâu T. 
+
+Example
+Input:
+2
+
+1 3 ABC
+
+2 5 /HTP
+
+Output:
+1 AAABBBCCC
+
+2 /////HHHHHTTTTTPPPPP

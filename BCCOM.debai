@@ -1,0 +1,34 @@
+BCCOM - Số nén tối giản (Cơ bản)
+Ta gọi phép nén một số nguyên là tính tổng các chữ số của nó. Dễ thấy, sau một số phép nén, thì số còn lại chỉ có một chữ số và ko nén được nữa. Ta gọi số đó là số nén tối giản.
+
+Ví dụ cho số 86. Sau phép nén thứ nhất ta đk: 8+6=14. Sau phép nén thứ 2: 1+4=5 => Số nén tối giản của 86 là 5.
+
+Cho một số nguyên hãy tìm số nén tối giản của nó.
+
+Input
+Dòng đầu chứa số bộ test.
+
+Mỗi dòng tiếp theo chứa 1 bộ test gồm 1 số nguyên dương. (<=10^9)
+
+Mỗi dòng 
+
+Output
+Mỗi dòng một số nén tối giản tương ứng.
+
+Example
+Input:
+3
+
+43
+
+111
+
+57871
+
+
+Output:
+7
+
+3
+
+1

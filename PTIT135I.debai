@@ -1,0 +1,26 @@
+PTIT135I - Nhìn và đọc
+Phép biến đổi "nhìn và đọc" được định nghĩa như sau:
+
+Bắt đầu từ số ở đầu tiên X. Với các số giống nhau thì nhóm lại thành một dãy (giả sử có Y số) thì dãy này được chuyển thành YX.
+
+Ví dụ 122344111 đọc là "một 1, hai 2, một 3, hai 4, ba 1", do đó chuỗi 122344111 chuyển thành 1122132431.
+
+Input
+Dòng đầu chứa số bộ test: 
+
+Mỗi dòng sau chứa 1 bộ test chứa chuỗi cần biến đổi (không quá 1000 chữ số)
+
+Output
+Với mỗi bộ test, in ra kết quả phép biến đổi
+
+Example
+Input:
+312234411111111111123453
+122344111
+1111111111
+12345
+
+Output:
+1122132431
+101
+1112131415

@@ -1,0 +1,70 @@
+PTIT136H - Sắp xếp dãy số
+Tí được cho bài tập sắp xếp mảng các số nguyên. Mảng có N số nguyên từ 1 đến N đôi một khác nhau. Tí được yêu cầu thực hiện thuật toán sắp xếp với N bước như sau:
+
+- Bước 1: Số 1 được di chuyển về vị trí 1 bằng cách đổi chỗ các phần tử liên tiếp
+
+- Bước 2: Số N được di chuyển về vị trí N bằng cách đổi chỗ các phần tử liên tiếp
+
+- Bước 3: Số 2 được di chuyển về vị trí 2 bằng cách đổi chỗ các phần tử liên tiếp
+
+- Bước 4: Số N-1 được di chuyển về vị trí N-1 bằng cách đổi chỗ các phần tử liên tiếp
+
+Cứ tiếp tục như vậy. Tức là ở bước thứ i:
+
+- Nếu i lẻ thì di chuyển số bé nhất chưa di chuyển để di chuyển về đúng vị trí của nó
+
+- Nếu i chẵn thì di chuyển số lớn nhất chưa di chuyển để di chuyển về đúng vị trí của nó
+
+Tính số lần đổi chỗ ở mỗi bước.
+
+Input
+Dòng 1 chứa số N (1<=N<=100).
+
+N dòng sau mỗi dòng chứa 1 phần tử của mảng.
+
+Output
+Mỗi bước in kết quả trên một dòng là số lần đổi chỗ của bước đó.
+
+Example
+Input:
+3 2 1 33 
+2 
+1 
+3
+
+Output:
+1
+0
+0
+Input:
+5
+5
+4
+3
+2
+1
+
+Output:
+4
+3
+2
+1
+0
+Input:
+7 
+5 
+4 
+3 
+7 
+1 
+2 
+6
+
+Output:
+4 
+2 
+3 
+0 
+2 
+1 
+0

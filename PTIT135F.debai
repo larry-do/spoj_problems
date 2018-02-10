@@ -1,0 +1,52 @@
+PTIT135F - Đếm cửa sổ
+Cửa sổ (có thể có rèm kéo) đươc biểu diễn dưới dạng 4 x 4, có 5 trạng thái như sau:
+
+
+
+Tòa nhà có M tầng, mỗi tầng có N cửa số. Tính số cửa sổ của mỗi trạng thái.
+
+................****............********........************....****************
+Input
+- Dòng đầu chứa 2 số M và N (không quá 100)
+
+- Các dòng sau mô tả tòa nhà:
+
+    - Khung cửa được kí hiệu bằng dấu #
+
+    - Cửa số kích thước 4x4 gồm 1 trong các trạng thái như trên
+
+Dễ thấy: Tòa nhà biểu diễn gồm 5M+1 dòng, mỗi dòng có 5N+1 kí tự
+
+Output
+Gồm 5 số là số cửa sổ tương ứng với các trạng thái như trên của tòa nhà
+
+Example
+Input:
+1 2
+###########
+#....#****#
+#....#****#
+#....#....#
+#....#....#
+###########
+
+Output:
+1 0 1 0 0
+ 
+
+Input:
+2 3
+################
+#****#****#****#
+#****#****#****#
+#****#....#****#
+#....#....#****#
+################
+#....#****#****#
+#....#****#....#
+#....#....#....#
+#....#....#....#
+################
+
+Output:
+1 1 2 1 1

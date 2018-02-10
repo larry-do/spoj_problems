@@ -1,0 +1,17 @@
+ALGOPRO4 - Cơ số
+Cho 1 số ở dạng nhị phân. Chuyển số đó sang dạng bát phân.
+Input
+Một dòng gồm 1 số ở dạng nhị phân (Không quá 63 chữ số). 
+Output
+Đáp án của bài toán.
+Example
+Test 1:
+Input:
+1100
+Output:
+14
+Test 2:
+Input:
+11001100
+Output:
+314

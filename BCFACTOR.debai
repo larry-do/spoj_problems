@@ -1,0 +1,12 @@
+BCFACTOR - Phân tích ra thừa số nguyên tố (Cơ bản)
+Cho số nguyên dương n (2<=n<=10^9) , hãy phân tích n ra thừa số nguyên tố.
+
+Dữ liệu:
+
+Một dòng duy nhất chứa số n.
+
+Kết quả:
+
+Mỗi dòng ghi một thừa số nguyên tố và số mũ tương ứng cách nhau bởi dấu cách.
+
+Các thừa số nguyên tố in ra theo thứ tự tăng dần.

@@ -1,0 +1,20 @@
+SUMDIV - Tổng ước
+Tính tổng các ước của số n (n≤1012).
+
+Input
+Dòng đầu chứa số bộ test.
+
+Các dòng sau, mỗi dòng chứa 1 số nguyên dương n (n≤1012).
+
+Output
+Mỗi test in trên 1 dòng chứa 1 số nguyên là tổng các ước của test tương ứng.
+
+Example
+Input:
+2
+5
+6
+
+Output:
+6
+12

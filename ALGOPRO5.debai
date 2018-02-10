@@ -1,0 +1,18 @@
+ALGOPRO5-Lucky number
+Một số được cho là may mắn nếu nó chỉ gồm các chữ số 6 và 9.
+Cho số tự nhiên n ( 1 <= n <= 55), hãy tính xem có bao nhiêu số may mắn có tối đa n chữ số?
+Input
+Số n.
+Output
+Đáp án của bài toán.
+Example
+Test 1:
+Input:
+2
+Output:
+6
+Test 2:
+Input:
+1
+Output:
+2

@@ -1,0 +1,14 @@
+BCPALIN - Số đối xứng (Cơ bản)
+Số nguyên n gọi là số đối xứng nếu đọc từ trái qua phải, hay từ phải qua trái đều được số giống nhau. Ví dụ: 11,121,101 là các số đối xứng.
+
+Yêu cầu: Cho số n, xác định xem n có phải là số đối xứng hay không.
+
+Dữ liệu:
+
+-          Dòng đầu chứa số bộ test
+
+-          Mỗi dòng sau chứa 1 bộ test gồm duy nhất số nguyên dương n (n<=10^9)
+
+Kết quả:
+
+Với mỗi bộ test, xuất ra trên 1 dòng: “YES” nếu là số đối xưng, ngược lại là “NO”.

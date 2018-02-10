@@ -1,0 +1,47 @@
+PTIT127I - Bán vé số
+Fred thích chơi xổ số và cậu ta mua rất nhiều vé số. Mỗi vé gồm 6 số nguyên duy nhất trong khoảng từ 1 đến 49. Fred muốn có một tập vé số chứa tất cả các số từ 1 đến 49.
+
+Cho trước một tập vé số mà Fred đã mua. Hãy kiểm tra xem tập vé đó có chứa tất cả các số từ 1 đến 49 hay không. 
+
+Input
+Gồm nhiều bộ test, mỗi bộ test bắt đầu với một dòng chứa số nguyên N  (1<=N<=100) là số vé mà Fred đã mua.
+
+N dòng tiếp theo mô tả các vé số  của Fred với 6 số nguyên.
+
+Dữ liệu vào kết thúc với một dòng chứa số 0.  
+
+Output
+ghi trên một dòng chữ “Yes” hoặc “No” cho biết bộ vé của Fred có bao đủ hết các số từ 1 đến 49 hay không. 
+
+Example
+Input:
+1
+
+1 2 3 4 5 6
+
+9
+
+1 2 3 4 5 6
+
+10 9 8 7 12 11
+
+13 14 15 16 17 18
+
+19 20 21 22 23 24
+
+25 26 27 28 29 30
+
+31 32 33 34 35 36
+
+37 38 39 40 41 42
+
+43 44 45 46 47 48
+
+49 19 34 27 25 13
+
+0
+
+Output:
+No
+
+Yes

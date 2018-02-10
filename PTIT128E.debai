@@ -1,0 +1,36 @@
+PTIT128E - Khóa tổ hợp
+Khóa tổ hợp có một núm xoay theo cả hai hướng: theo hoặc ngược chiều kim đồng hồ.
+
+Các điểm “tick” được đánh số từ 0 đến N-1 theo chiều kim đồng hồ.  
+
+Một khóa chứa ba số T1, T2, T3 là các số nguyên không âm và nhỏ N. Không có hai số nào bằng nhau
+
+ 
+
+Khóa được mở theo ba bước như sau:
+
+Xoay theo chiều kim đồng hồ đúng hai vòng sau đó xoay đến điểm tick giá trị T1
+ Xoay ngược chiều kim đồng hồ đúng một vòng sau đó xoay đến điểm tick giá trị T2.
+Xoay theo chiều kim đồng hồ đến điểm tick giá trị T3.
+Bạn hãy tính số tick tối đa cần xoay qua để mở khóa. 
+
+Input
+Gồm nhiều bộ test, mỗi bộ test viết trên một dòng 4 số nguyên N, T1, T2, T3 trong đó 25<=N<=100
+
+Dữ liệu vào kết thúc với một dòng chứa 4 số 0.   
+
+Output
+ghi trên một dòng số nguyên dương là giá trị số tick tối đa có thể cần đi qua để mở khóa
+
+Example
+Input:
+80 20 40 50
+
+80 10 79 12
+
+0 0 0 0
+
+Output:
+409
+
+455

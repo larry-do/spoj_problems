@@ -1,0 +1,40 @@
+PTIT122D - Phong cách C
+Bài này là đánh giá về các biểu thức theo phong cách lập trình C. Biểu thức chỉ chứa các biến số nguyên đơn giản và một tập hữu hạn các toán tử (sẽ không có các hằng số trong biểu thức). Có 26 biến trong chương trình, đặt tên bằng chữ thuờng từ ‘a’ tới ‘z’. Trước khi đánh giá, các giá trị ban đầu của các biến là a=1,b=2,...,z=26.
+
+Các toán tử được chấp nhận là phép công và trừ (phép toán 2 ngôi + và -). Ví dụ: Biểu thức a + c - d + b có giá trị là 2 (1 + 3 – 4 +2). Ngoài ra, toán tử ++ và -- cũng chấp nhận trong biểu thức, đây là các phép toán một ngôi, có thể đặt trước hoặc sau biến. Nếu ++ đặt trước biến sẽ tăng biến lên một rồi tính toán tiếp. Do đó, giá trị của ++c-b là 2.  Nếu ++ đặt sau biến thì sẽ thực hiện hết biểu thức rồi mới tăng biến lên 1. Do đó,giá trị của c++-b là 1, khi thực hiện hết biểu thức, c có giá trị là 4. Toán tử  -- cũng vậy, nhưng nó làm giảm biến đi 1.
+
+Dữ liệu:
+
+- Dòng đầu tiên chứa số bộ test T.
+
+- T dòng sau, mỗi dòng là một biểu thức không có dấu cách, mỗi biến xuất hiện 1 lần. Biểu thức không chứa một số dạng sau:
+
+3 dấu ‘+’ hoặc 3 dấu ‘–‘ liền nhau (ví dụ như a+++b)
+Đồng thời ‘++’ (hoặc ‘--‘) ở cả trước và sau  một biến (ví dụ như ++a++).
+Kết quả:
+
+Mỗi bộ test in ra trên nhiều dòng có dạng như sau:
+
+- Dòng đầu in ra “Expression: “ sau đó là biểu thức của bộ test tương ứng.
+
+- Dòng hai in ra “value = ” sau đó là giá trị của biểu thức.
+
+- Các dòng tiếp theo mỗi dòng in ra giá trị các biến trong biểu thức (in ra theo thứ tự alphabet) có dạng như sau: “tên_biến = giá_trị_của_biến”
+
+Example
+Input:
+
+2
+a+b
+c+f--+--a
+Output:
+
+Expression: a+b
+value = 3
+a = 1
+b = 2
+Expression: c+f--+--a
+value = 9
+a = 0
+c = 3
+f = 5

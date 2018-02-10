@@ -1,0 +1,8 @@
+BCVTAB - A cộng B (Cơ bản)
+Tính tổng 2 số.
+
+Input
+2 số a,b cách nhau bởi dấu cách (a,b<=10^18)
+
+Output
+Tổng 2 số trong input

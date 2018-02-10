@@ -1,0 +1,8 @@
+BCSINH - Sinh các dãy nhị phân độ dài n (Cơ bản)
+Sinh các dãy nhị phân có độ dài n.
+
+Input
+Số nguyên duy nhất n (1<=n<=9)
+
+Output
+Mỗi dòng một dãy nhị phân. Các dãy nhị phân phải được liệt kê theo thứ tự từ điển.

@@ -1,0 +1,40 @@
+PTIT125J - Bàn cờ
+Cho 1 bàn cờ N×N ô vuông. Hai người chơi lần lượt điền chữ cái đầu tiên của tên mình vào 1 trong các ô còn trống trên bàn cờ. Người chơi sẽ dành chiến thẳng nếu điền được 3 ô liền nhau cùng 1 chữ theo chiều dọc, chiều ngang, hoặc đường chéo. Cho trạng thái của bàn cờ, xác định xem ai thẳng cuộc?
+
+Input
+- Dòng 1: số N (1<=N<=30)
+
+- N dòng, mỗi dòng N kí tự liên nhau mô tả trạng thái của bàn cờ:
+
+- Dấu '.': nếu ô đó còn trống
+
+- Chữ cái in hoa: các ô đã được người chơi đi, hai người chơi đại diện bằng hai chữ cái khác nhau.
+
+Dữ liệu đảm bảo rằng có nhiều nhất 1 người chiến thắng.
+
+Output
+Nếu trò chơi đã có người thắng cuộc, in ra kí tự đại diện của người đó. Ngược lại in ra "ongoing".
+
+Example
+Input:
+3
+XOO
+XOO
+X..
+Output:
+X
+Input:
+4
+....
+..A.
+AAB.
+.B.B
+Output:
+ongoing
+Input:
+3
+ABB
+AAA
+BBA
+Output:
+A

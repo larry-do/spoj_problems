@@ -1,0 +1,26 @@
+PTIT126F - Di chuyển trái phải
+Một robot chỉ có thể di chuyển sang phải hoặc sang trái. Dãy di chuyển của nó được kí hiệu là một chuỗi, nhưng do sơ suất của người ghi chép, nên một số bước đi không ghi lại được. Nhiệm vụ của bạn là xác định xem robot có thể đi cách xa nhất vị trí ban đầu là ban nhiêu?
+
+Input
+Một dòng duy nhất chứa chuỗi di chuyển, mỗi kí tự có thể là:
+
+-       ‘L’ nếu di chuyển sang trái
+
+-       ‘R’ nếu di chuyển sang phải
+
+-       ‘ ?’ nếu không xác định.
+
+Output
+Khoảng cách xa nhất đến vị trí ban đầu.
+
+Example
+Input:
+LLLRLRRR
+
+Output:
+3
+Input:
+R???L
+
+Output:
+4

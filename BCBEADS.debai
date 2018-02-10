@@ -1,0 +1,28 @@
+BCBEADS - Đếm hạt
+Bessie đã đổ ra bộ sưu tập của cô với N (1<=N<=80) hạt xanh và cam (biểu diễn bởi 0 và 1) xuống sàn.
+
+Bessie dọn dẹp sự lộn xộn bằng cách sắp xếp chúng lại thành 1 đường thẳng dài. Cô muốn đếm số lần hai hạt
+
+liên tiếp khác màu nhau. Hãy giúp cô thực hiện điều này.
+
+
+
+INPUT:
+
+* Dòng 1: 1 số nguyên: N
+
+* Dòng 2: Dòng 2 chứa N số nguyên, mỗi số là 0 hoặc 1
+
+OUTPUT:
+
+* Dòng 1: 1 số nguyên biểu diễn số lần hai hạt liên tiếp khác màu.
+
+
+
+VÍ DỤ:
+
+
+
+INPUT:
+
+6
