@@ -1,0 +1,16 @@
+PTIT124H - Điểm còn lại của hình chữ nhật
+Mai-cồ cần chọn 4 điểm trên mặt phẳng để tạo thành 1 hình chữ nhật có cạnh song song với các trục. Anh đã lựa chọn 3 điểm và tự tin rằng anh đã không chọn sai, nhưng anh ta gặp khó khăn khi tìm điểm cuối cùng. Bạn hãy giúp anh ấy.
+
+Input
+Gồm 3 dòng: Mỗi điểm trên một dòng chứa tạo độ của điểm đó.
+
+Output
+In ra điểm còn lại của hình chữ nhật
+
+Example
+Input:
+5 5
+5 7
+7 5
+Output:
+7 7

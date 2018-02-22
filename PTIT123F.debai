@@ -1,0 +1,28 @@
+PTIT123F - Người cai ngục say rượu
+Một nhà tù nào đó có n ô kế tiếp nhau. Mỗi ô có một tù nhân ở trong nó và đều được khóa lúc ban đầu.
+
+Một đêm, cai ngục buồn chán và quyết định chơi một trò chơi. Vòng thứ nhất của trò chơi, ông uống một chai whisky và chạy đi mở khóa cho tất cả các ô 1,2,3,..n . Vòng thứ 2, ông cũng uống 1 chai whisky và chạy đi khóa tất cả các ô chia hết mà chỉ số ô cho 2. Vòng thứ 3, ông cũng uống như vậy @@ và lại chạy đi thăm các ô có chỉ số chia hết cho 3. Nếu ô đang khóa, thì ông mở khóa, nếu ô đang mở thì ông sẽ khóa lại. Ông lặp lại trong n vòng, sau đó đi ra ngoài. Một số tù nhân thấy ô của họ đã được mở khóa và không có cai ngục, lập tức họ thoát ra ngoài.
+
+Cho số lượng các ô ban đầu, xác định có bao nhiêu tù nhân thoát ra ngoài.
+
+Input
+-          Dòng 1 chứa số bộ test T
+
+-          Sau đó là T bộ test, mỗi bộ test trên 1 dòng chứa một số n (5<=n<=100) là số ô của nhà tù.
+
+Output
+Với mỗi bộ test, in ra trên một dòng số tù nhân trốn thoát.
+
+Example
+Input:
+2
+
+5
+
+100
+
+
+Output:
+2
+
+10

@@ -1,0 +1,49 @@
+P153PROF - ROUND 3F - Quyết chiến
+Có một cuộc quyết chiến giữa 2 phe Radiant và Dire. Mỗi phe có N chiến binh, mỗi chiến binh đều biết chỉ số sức mạnh của mình. Cuộc quyết chiến giữa 2 phe phải được tuân thủ luật sau:
+
+Có N vòng đấu, mỗi vòng đấu Radiant và Dire cử ra 1 chiến binh để quyết chiến với bên kia. Chiến binh của bên nào thắng thì bên đó sẽ được 1 điểm, bên thua cuộc được 0 điểm.
+
+Trước khi cuộc quyết chiến diễn ra, thủ lĩnh của cả 2 phe đều biết được thực lực các chiến binh của đối phương. Thủ lĩnh Dire là 1 người tài trí hơn người, ông ta biết cách sắp xếp thứ tự thi đấu sao cho bên mình có thể đạt được nhiều điểm nhất có thể.
+
+Bạn hãy đoán xem với danh sách 2 đội đã cho trước, Dire có thể có tối đa bao nhiêu điểm.
+
+Input
+Dòng đầu tiên chứa số N (1 ≤ n ≤ 2*105).
+
+Dòng thứ 2 gồm n số nguyên dương a[1], a[2], ..., a[n] là chỉ số sức mạnh của các chiến binh phe Radiant.
+
+Dòng thứ 3 gồm n số nguyên dương b[1], b[2], ..., b[n] là chỉ số sức mạnh của các chiến binh phe Dire.
+
+(1 ≤ a­i, bi ≤ 2*N).
+
+Giả sử rằng chỉ số sức mạnh của tất cả các chiến binh 2 phe đều khác nhau.
+
+Output
+In ra số điểm tối đa Dire có thể đạt được.
+
+Example
+Test 1:
+
+Input:
+
+3
+3 4 5
+1 2 6
+
+Output:
+
+1
+
+ 
+
+Test 2:
+
+Input:
+
+4
+4 5 6 2
+1 7 3 8
+
+Output:
+
+3

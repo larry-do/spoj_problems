@@ -1,0 +1,34 @@
+PTIT126J - Chặt gỗ
+Có N cây gỗ, có chiều cao lần lượt là A[1],A[2],..,A[n]. Bạn cần lấy một lượng gỗ độ cao tối thiểu là M bằng cách chặt từ N cây theo cách như sau: chặt tất cả những phần thừa của các cây có độ cao lớn hơn H. Hãy tìm giá trị H lớn nhất để bạn có thể lấy được lượng gỗ tối thiểu là M.
+
+Input
+- Dòng 1 chứa 2 số nguyên N (1<=N<=1 000 000) và M (1 <= M <= 2 000 000 000).
+
+- Dòng 2 chứa N số nguyên A[1],A[2],…,A[n], là chiều cao mỗi cây gỗ tương ứng (A[i] <= 1 000 000 000, i=1->n). Giả sử luôn tồn tại cách chặt.
+
+Output
+Số H duy nhất.
+
+Example
+Input:
+4 7
+
+20 15 10 17
+
+Output:
+15
+Giải thích:
+
+Cây 1 chặt được (20-15)=5.
+
+Cây 4 chặt được (17-15)=2.
+
+Tổng số gỗ chặt được nếu H=15 là 7.
+
+Input:
+5 20
+
+4 42 40 26 46
+
+Output:
+36

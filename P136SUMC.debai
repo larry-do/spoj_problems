@@ -1,0 +1,45 @@
+P136SUMC - SUM6 C - Số nghịch đảo
+Mẹ bảo Tí dạy đứa em nhỏ học toán, làm quen với các con số. Tý thấy thằng em mình khá thông minh, so sánh các số bình thường có vẻ quá đơn giản đối với nó. Vì vậy Tý ra yêu cầu mới, các số bình thường sẽ được đọc từ trái sang, bây giờ sẽ đọc ngược lại, đọc các chữ số từ bên phải sang.
+
+Bài toán có vẻ hơi hóc búa với em của Tý, các bạn hãy viết chương trình để giải quyết vấn đề này.
+
+Input
+Chứa 2 số nguyên có 3 chữ số A và B. A và B luôn khác nhau và không chứa chữ số 0.
+
+Output
+In ra số có giá trị lớn hơn (theo quy tắc mới).
+
+Example
+Test 1:
+
+Input:
+
+734 893
+
+Output:
+
+437
+
+ 
+
+Test 2:
+
+Input:
+
+221 231
+
+Output:
+
+132
+
+ 
+
+Test 3:
+
+Input:
+
+839 237
+
+Output:
+
+938
