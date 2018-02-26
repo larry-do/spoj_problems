@@ -1,0 +1,74 @@
+P141PROA - ROUND 1A - Đối mặt
+VTV3 đang thử thay đổi phiên bản cho game show “Đối mặt”. Ban đầu có 8 người chơi, mỗi vòng sẽ loại bỏ đi 1 người để tìm được người chiến thắng duy nhất. Tuy nhiên, trong bài toán này, nhiệm vụ của các bạn chỉ dừng lại ở vòng 1, tức chỉ cần tìm ra người thua cuộc đầu tiên.
+
+
+
+8 người chơi sẽ xếp thành hình tròn và được đánh số thứ tự theo chiều kim đồng hồ như hình vẽ. Vòng 1 sẽ kéo dài trong 3 phút 30 giây. Đầu tiên, máy quay sẽ chỉ đến một người chơi nào đó, người chơi sẽ phải trả lời câu hỏi mà chương trình đưa ra. Nếu người chơi trả lời đúng (T), máy quay sẽ chỉ đến người tiếp theo. Nếu người chơi trả lời sai (N) hoặc xin đổi câu hỏi (P), người chơi sẽ được nhận câu hỏi mới.
+
+Chiếc máy quay sẽ thu nhận kết quả câu trả lời của người chơi. Cho biết dữ liệu mà máy quay thu nhận được, các bạn hãy xác định người thua cuộc.
+
+Input
+Dòng đầu tiên là số nguyên K (1 <= K <= 8) là số thứ tự của người chơi sẽ bị hỏi đầu tiên.
+
+Dòng thứ 2 là số nguyên N (1 <= N <= 100) là số câu hỏi mà chương trình đã phải sử dụng.
+
+N dòng tiếp theo, mỗi dòng chứa một số nguyên T (1 <= T <= 100) và kí tự C là thời gian (s) kể từ lúc câu hỏi được đưa ra cho đến khi nhận được câu trả lời của người chơi, và kết quả trả lời của người chơi cho câu hỏi đó (‘T’, ‘N’ hoặc ‘P’).
+
+Output
+In ra một dòng duy nhất là số thứ tự của người thua cuộc, (người chơi cuối cùng mà máy quay chỉ vào).
+
+Example
+Test 1:
+
+Input:
+
+1
+5
+20 T
+50 T
+80 T
+50 T
+30 T
+
+Output:
+
+5
+
+ 
+
+Test 2:
+
+Input:
+
+3
+5
+100 T
+100 N
+100 T
+100 T
+100 N
+
+Output:
+
+4
+
+ 
+
+Test 3:
+
+Input:
+
+5
+6
+70 T
+50 P
+30 N
+50 T
+30 P
+80 T
+
+Output:
+
+7
+
+ Submit solution!

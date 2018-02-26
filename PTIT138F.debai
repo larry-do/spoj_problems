@@ -1,0 +1,76 @@
+PTIT138F - BÀI F - HÀNG ĐỢI
+Cho một hàng đợi đã có một số phần tử. Một thao tác di chuyển trong hàng đợi được định nghĩa như sau:
+
+                        vị trí xuất phát  to  vị trí đến
+
+ tức là di chuyển phần tử ở vị trí xuất phát đến vị trí đến. Ví dụ, hàng đợi ban đầu là:
+
+Item1 Item2 Item3 Item4 Item5
+
+Thì thao tác 5 to 2 sẽ đưa hàng đợi về dạng:
+
+Item1 Item5 Item2 Item3 Item4
+
+Ta có áp dụng nhiều thao tác di chuyển cùng một lúc. Ví dụ nếu hàng đợi là:
+
+Item1 Item2 Item3 Item4 Item5 Item6 Item7 Item8
+
+Và chuỗi thao tác là
+
+2 to 6; 6 to 3; 4 to 5; 5 to 2; 7 to 4; 8 to 1
+
+Thì ta có hàng đợi mới sẽ là:
+
+Item8 Item5 Item6 Item7 Item4 Item2 Item1 Item3
+
+Chú ý: trong chuỗi thao tác thì không được có hai thao tác nào trùng nhau. Các thao tác thực hiện đồng thời và phần tử nào được di chuyển đến vị trí mới thì bắt buộc phải ở vị trí đó sau khi hoàn thành, các phần tử khác không liên quan được đẩy sang các vị trí còn lại nhưng vẫn giữ thứ tự trước sau như lúc đầu. Như trong ví dụ trên, vị trí 7,8 không được phần tử nào di chuyển đến nên hai item còn lại là 1 và 3 (là các vị trí không bị di chuyển đi) sẽ ở vị trí đó.
+
+Bài toán đặt ra là cho trước hàng đợi và chuỗi thao tác di chuyển, hãy xác định hàng đợi kết quả.
+
+Input
+Dòng đầu ghi số bộ test không quá 100. Mỗi bộ test gồm: 
+• Dòng đầu ghi hai số m và n (1<=n,m<=20). Trong đó m là số phần tử trong hàng đợi, n là số thao tác di chuyển. 
+• Dòng tiếp theo ghi các phần tử trong hàng đợi ban đầu, mỗi phần tử là một chuỗi ký tự ngắn (1 đến 8 ký tự), các phần tử cách nhau một khoảng trống. Không có hai phần tử nào trung nhau.
+• n dòng tiếp theo, mỗi dòng ghi một thao tác di chuyển dưới dạng 2 số nguyên dương theo thứ tự là vị trí xuất phát và vị trí đến.
+
+Output
+Với mỗi bộ test, in ra màn hình trạng thái hàng đợi sau khi áp dụng các thao tác di chuyển.  
+Example
+Input:
+3
+
+5 1
+
+alpha beta gamma delta epsilon
+
+5 2
+
+8 6
+
+a b c d e f g h
+
+2 6
+
+6 3
+
+4 5
+
+5 2
+
+7 4
+
+8 1
+
+3 2
+
+foo bar baz
+
+3 1
+
+1 3
+Output:
+alpha epsilon beta gamma delta
+
+h e f g d b a c
+
+baz bar foo
